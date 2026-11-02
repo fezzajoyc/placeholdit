@@ -2,9 +2,9 @@
 // 刻意不加 as const:字符串需放宽为 string,翻译文件才可实现同一类型。
 const en = {
   brand: "Placeholdit",
-  tagline: "Placeholder images and fake data, generated in your browser. Nothing you do here leaves your device.",
+  tagline: "Placeholder images & fake data, in-browser",
   metaDesc:
-    "Placeholder images and fake data, generated in your browser — instant SVG/PNG previews, rule-based test data and fresh filler text. No upload, no signup.",
+    "Placeholder images and fake data in your browser — instant SVG/PNG previews, rule-based test data and filler text. No upload, no signup.",
 
   nav: {
     tools: "All tools",
