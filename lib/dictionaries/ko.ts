@@ -21,6 +21,10 @@ const ko: Dictionary = {
     heroSub:
       "{n}개의 개발자 도구: 플레이스홀더 이미지, 가짜 데이터, 더미 로고, 필러 텍스트. 모두 브라우저에서 로컬 실행 — 빠르고 무료이며 가입도 업로드도 없습니다.",
     browseAll: "전체 도구 보기",
+    pinned: "고정됨",
+    pin: "상단에 고정",
+    unpin: "고정 해제",
+    popular: "인기 도구",
     categoriesTitle: "카테고리",
     featuredTitle: "인기 도구",
     trustLocal: "파일은 기기에만 보관됩니다",
@@ -79,6 +83,8 @@ const ko: Dictionary = {
     howTo: "사용 방법",
     faq: "자주 묻는 질문",
     related: "관련 도구",
+    nextStep: "다음 단계",
+    copyLink: "링크 복사",
     privacyNote:
       "이 도구는 전부 브라우저 안에서 실행됩니다. 데이터는 기기를 떠나지 않으며 어떤 서버로도 업로드되지 않습니다.",
     inCategory: "{category}의 다른 도구",
