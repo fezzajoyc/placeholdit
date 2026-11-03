@@ -10,74 +10,29 @@ type Faq = { q: string; a: string };
 
 const GLOBAL: Partial<Record<Locale, Faq[]>> = {
   en: [
-    {
-      q: "Is this tool free to use?",
-      a: "Yes, completely free — no signup, no subscription, no daily limits, and no watermarks on the output.",
-    },
-    {
-      q: "Does my data leave my device?",
-      a: "No. The tool runs entirely in your browser with JavaScript. Nothing you type or upload is sent to a server, so it even works offline once the page has loaded.",
-    },
-    {
-      q: "Which browsers does it work in?",
-      a: "Any modern browser — Chrome, Firefox, Safari and Edge on desktop and mobile. No plugins or extensions are needed.",
-    },
+    { q: "Does Placeholdit send my code anywhere?", a: "No. Placeholdit's placeholder images and test data tools parse and transform entirely in your browser — paste production snippets with confidence, nothing leaves the tab." },
+    { q: "Why is there no account or save feature?", a: "By design. Placeholdit is stateless on purpose: your clipboard and your files stay yours, and the tool works the same on a public computer as on your own." },
+    { q: "How large an input can Placeholdit handle?", a: "Only your machine's memory limits it. placeholder images and test data processing is local, so multi-megabyte inputs work without any request-size cap." },
   ],
   zh: [
-    {
-      q: "这个工具免费吗?",
-      a: "完全免费 — 无需注册、没有订阅、无每日限额,输出不带水印。",
-    },
-    {
-      q: "我的数据会传到服务器吗?",
-      a: "不会。工具完全在浏览器里用 JavaScript 运行,输入的文件和内容不会发送到任何服务器;页面加载后断网也能用。",
-    },
-    {
-      q: "支持哪些浏览器?",
-      a: "所有现代浏览器 — Chrome、Firefox、Safari、Edge,桌面和移动端通用,无需安装插件。",
-    },
+    { q: "Placeholdit会把我的代码发送到别处吗?", a: "不会。Placeholdit的占位图与测试数据工具完全在浏览器里解析和转换 — 可以放心粘贴生产片段,数据不出标签页。" },
+    { q: "为什么没有账号和保存功能?", a: "这是刻意设计。Placeholdit坚持无状态:剪贴板和文件始终属于你,在公共电脑上和自己电脑上体验完全一致。" },
+    { q: "能处理多大的输入?", a: "只受你机器内存限制。占位图与测试数据处理全部本地运行,几 MB 的输入也没有请求大小上限。" },
   ],
   ja: [
-    {
-      q: "このツールは無料ですか?",
-      a: "完全無料です。登録・課金・回数制限はなく、出力にウォーターマークも入りません。",
-    },
-    {
-      q: "入力したデータは外部に送信されますか?",
-      a: "送信されません。すべてブラウザ内の JavaScript で処理されるため、入力・ファイルはサーバーに送られず、読み込み後はオフラインでも動作します。",
-    },
-    {
-      q: "対応ブラウザは?",
-      a: "Chrome / Firefox / Safari / Edge の最新版(デスクトップ・モバイル共通)。プラグインや拡張機能は不要です。",
-    },
+    { q: "Placeholditはコードをどこかに送信しますか?", a: "いいえ。Placeholditのplaceholder images and test dataツールは完全にブラウザ内で解析・変換します。本番コードの断片も安心して貼り付けられます。" },
+    { q: "アカウントや保存機能がないのはなぜ?", a: "意図的な設計です。Placeholditはステートレスを貫いており、クリップボードとファイルは常にユーザーのもの。公用 PC でも自分の PC でも同じ動作をします。" },
+    { q: "どれくらい大きい入力まで対応しますか?", a: "実質的な上限は端末のメモリのみ。placeholder images and test data処理はローカル実行のため、数 MB の入力でもリクエストサイズ制限はありません。" },
   ],
   es: [
-    {
-      q: "¿Esta herramienta es gratis?",
-      a: "Sí, totalmente gratis: sin registro, sin suscripción, sin límites diarios y sin marcas de agua.",
-    },
-    {
-      q: "¿Mis datos salen de mi dispositivo?",
-      a: "No. Todo se procesa con JavaScript en tu navegador; nada se envía a un servidor. Incluso funciona sin conexión una vez cargada la página.",
-    },
-    {
-      q: "¿En qué navegadores funciona?",
-      a: "Cualquier navegador moderno: Chrome, Firefox, Safari y Edge, en escritorio y móvil. Sin plugins ni extensiones.",
-    },
+    { q: "¿Placeholdit envía mi código a algún sitio?", a: "No. Las herramientas de placeholder images and test data de Placeholdit analizan y transforman por completo en tu navegador — pega fragmentos de producción con confianza, nada sale de la pestaña." },
+    { q: "¿Por qué no hay cuenta ni guardado?", a: "Es deliberado. Placeholdit no guarda estado: tu portapapeles y tus archivos siguen siendo tuyos, y funciona igual en un ordenador público que en el tuyo." },
+    { q: "¿Cuánto soporta de entrada?", a: "Solo la memoria de tu máquina. El procesamiento de placeholder images and test data es local, así que entradas de varios megabytes funcionan sin límite de tamaño." },
   ],
   pt: [
-    {
-      q: "Esta ferramenta é gratuita?",
-      a: "Sim, totalmente gratuita — sem cadastro, sem assinatura, sem limites diários e sem marcas d'água.",
-    },
-    {
-      q: "Meus dados saem do dispositivo?",
-      a: "Não. A ferramenta roda inteiramente no seu navegador com JavaScript; nada é enviado a servidores e funciona até offline depois de carregada.",
-    },
-    {
-      q: "Quais navegadores são suportados?",
-      a: "Qualquer navegador moderno — Chrome, Firefox, Safari e Edge, no desktop e no celular. Nenhum plugin necessário.",
-    },
+    { q: "O Placeholdit envia meu código para algum lugar?", a: "Não. As ferramentas de placeholder images and test data do Placeholdit analisam e transformam tudo no seu navegador — cole trechos de produção sem medo, nada sai da aba." },
+    { q: "Por que não há conta nem salvamento?", a: "É de propósito. O Placeholdit não mantém estado: sua área de transferência e seus arquivos continuam seus, e funciona igual num computador público ou no seu." },
+    { q: "Qual o limite de entrada?", a: "Apenas a memória da sua máquina. O processamento de placeholder images and test data é local, então entradas de vários megabytes funcionam sem limite de requisição." },
   ],
 };
 
